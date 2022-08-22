@@ -1,3 +1,50 @@
 .caab-logo{
     width: 100px;
 }
+.top-header{
+    margin-top: 10px;
+    color: #010247;
+}
+.langues{
+    padding: 5px;
+}
+.fa-solid{
+   padding: 8px;
+}
+.fa-brand{
+    list-style: none;
+   
+}
+.fa-brands{
+    padding: 5px;
+    font-size: 25px;
+}
+.hrader-title{
+    color: #010247;
+    font-size: 26px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.main-header-top{
+    background-color: #eef3f7;
+    justify-content: space-between;
+
+}
+
+.search-ber{
+    height: 2rem;
+    margin-left: 120px;
+    position: relative;
+    background-color: #f2f2f2;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    align-items: stretch; 
+}
+.btn-search{
+    margin-left: 0;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+    
