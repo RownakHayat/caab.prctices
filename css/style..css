@@ -1,9 +1,15 @@
 .caab-logo{
     width: 100px;
 }
+.top-header {
+    height: 40px;
+}
 .top-header{
-    margin-top: 10px;
+    margin-top: 5px;
     color: #010247;
+}
+.top-header .right-sec ul li img {
+    width: 25px;
 }
 .langues{
     padding: 5px;
@@ -13,11 +19,14 @@
 }
 .fa-brand{
     list-style: none;
-   
+    margin: 0;
 }
 .fa-brands{
     padding: 5px;
-    font-size: 25px;
+    font-size: 24px;
+}
+.langues-sec{
+    padding-left: 30px;
 }
 .hrader-title{
     color: #010247;
@@ -26,10 +35,19 @@
     margin-left: 40px;
     text-transform: uppercase;
 }
+.main-header{
+    top: 3px;
+}
 .main-header-top{
-    background-color: #eef3f7;
+    background-color: #f2f2f2;
     justify-content: space-between;
 
+}
+.search-form{
+    width: 300px;
+    border-radius: 8px;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
 }
 
 .search-ber{
@@ -37,14 +55,17 @@
     margin-left: 120px;
     position: relative;
     background-color: #f2f2f2;
-    border-top-left-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
+    
     align-items: stretch; 
 }
 .btn-search{
     margin-left: 0;
-    border: 1px solid #ced4da;
+    border: 1px solid #e8edf1;
     border-radius: 5px;
 }
 
-    
+@media only screen and (max-width: 1366px){
+    .top-header {
+        height: 40px;
+    }
+}
