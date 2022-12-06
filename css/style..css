@@ -1,3 +1,4 @@
+
 .caab-logo{
     width: 100px;
 }
@@ -54,8 +55,39 @@
 }
 
 
-@media only screen and (max-width: 1366px){
-    .top-header {
-        height: 40px;
-    }
+
+@media only screen and (max-width: 576px) {
+   .top-header{
+    display: flex;
+    justify-content: center;
+    
+   }
+   .fa-brands, .langues-sec,.langues{
+    padding: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+   }
+   .title-main-header{
+    box-sizing: border-box;
+    display: block;
+
+   }
+   .caab-logo{
+    max-width: 60px;
+   }
+   .hrader-title{
+    font-size: 15px;
+    margin-left: 13px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    
 }
+  .search-ber{
+    display: inline;
+    
+  } 
+  .search-form{
+    width: 100%;
+  }
+  }
