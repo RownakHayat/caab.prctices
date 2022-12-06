@@ -53,6 +53,20 @@
     border: 1px solid #e8edf1;
     border-radius: 5px;
 }
+.main-header-nav{
+    background-color: #010247;
+    height: 60px;
+}
+
+.for_responsive_menu, ul, li{
+    color: #fff;
+    list-style: none;
+    display: inline;
+    text-align: right;
+    text-align: center;
+    border-right: 1px solid #fff;
+    position: relative;
+}
 
 
 
