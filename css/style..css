@@ -79,7 +79,15 @@
     background-color: #fff;
     color: #010247;
 }
-
+.indicator-section{
+    background-color: #ffffff;
+    margin: 0px;
+}
+.carousel-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media only screen and (max-width: 576px) {
    .top-header{
