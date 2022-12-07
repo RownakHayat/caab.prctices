@@ -55,19 +55,29 @@
 }
 .main-header-nav{
     background-color: #010247;
-    height: 60px;
+    height: 70px;
 }
-
-.for_responsive_menu, ul, li{
+/*.for_responsive_menu, ul, li{
     color: #fff;
     list-style: none;
     display: inline;
     text-align: right;
-    text-align: center;
-    border-right: 1px solid #fff;
     position: relative;
+    font-size: 18px;
 }
+*/
 
+.nav_menu li{
+    list-style: none;
+    color: #fff;
+    margin-top: 0px;
+    padding: 26px 0px 20px;
+    
+}
+.nav_menu li:hover{
+    background-color: #fff;
+    color: #010247;
+}
 
 
 @media only screen and (max-width: 576px) {
