@@ -79,15 +79,50 @@
     background-color: #fff;
     color: #010247;
 }
-.indicator-section{
+.banner-section .indicator-section{
     background-color: #ffffff;
+    box-shadow: 0 9px 7px -13px #000;
+    position: relative;
     margin: 0px;
+
 }
-.carousel-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.banner-section .indicator-section button{
+    position: relative;
+    font-size: 16px;
+    color: #010247;
+    text-decoration: none;
+    height: 55px;
+    padding:  0 35px;
+    margin-bottom: 0;
+    text-align: center;
+    border: 0;
+    border-color: #010247;
+    line-height: normal;
+    background: transparent;
+    width: auto;
+    margin-right: 0;
+    margin-left: 0;
+    text-indent: unset;
 }
+.banner-section .indicator-section button::after {
+    content: "";
+    height: 75%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    border-right: 1px solid #010247;
+}
+.banner-section .indicator-section button:hover,
+.banner-section .indicator-section button.active {
+    background-color: #010247;
+    color: #fff;
+}
+.banner-section .indicator-section button:last-child::after {
+    display: none;
+}
+
+    
 
 @media only screen and (max-width: 576px) {
    .top-header{
@@ -123,4 +158,18 @@
   .search-form{
     width: 100%;
   }
+
+  .banner-section .indicator-section { 
+    background-color: unset; 
+    bottom: 20px; 
+}
+.banner-section .indicator-section button { 
+    font-size: 0px; 
+    height: 15px; 
+    width: 15px; 
+    border-radius: 50%; 
+    padding: 0px; 
+    border: 1px solid rgb(255, 255, 255); 
+    margin-right: 5px; 
+}  
   }
